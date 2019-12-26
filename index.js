@@ -2,7 +2,7 @@
     const prefict = require('./predict');
 
     const base_x = Array.from(Array(200), (_,x) => 3 * Math.random());
-    const base_y = base_x.map(x => x * x + 1);
+    const base_y = base_x.map(x => 2 * x + 1);
 
     const from = 2;
     
